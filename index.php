@@ -18,8 +18,8 @@ if (!$_GET[id])
 ?>
 <form method="get" action="">
 Номер<input type="text" name="nom" size="12" maxlength="20"/><br>
-Сервер<input type="text" name="server" size="12" maxlength="20" value="192.168.0.2"><br>
-Пароль<input type="text" name="pass" size="12" maxlength="20" value="1234567890411"><br>
+Сервер<input type="text" name="server" size="12" maxlength="20" value="192.168.0.0"><br>
+Пароль<input type="text" name="pass" size="12" maxlength="20" value="1234567890"><br>
 MAK<input type="text" name="mak" size="12" maxlength="20"><br>
   <input type="submit" value="Отправить">
 </form><table cellspacing="0" border="1">
