@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS `button` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `mak` varchar(32) CHARACTER SET latin1 NOT NULL,
+  `par1` text CHARACTER SET latin1 NOT NULL,
+  `par2` text CHARACTER SET latin1 NOT NULL,
+  `par3` text CHARACTER SET latin1 NOT NULL,
+  `par4` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=cp1251 AUTO_INCREMENT=40 ;
+
+CREATE TABLE IF NOT EXISTS `nom` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(32) NOT NULL,
+  `pass` varchar(32) NOT NULL DEFAULT '1234567890411',
+  `server` varchar(32) NOT NULL DEFAULT '192.168.0.2',
+  `mak` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=465 ;
